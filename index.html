@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ali — AI Photoshoots</title>
+  <meta name="description" content="Ali — AI photoshoots & creative portrait concepts. Portfolio + contact." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar" id="top">
+    <a class="logo" href="#top" aria-label="Go to top">
+      <span class="logo-dot"></span>
+      Ali<span class="muted">/AI</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact" class="btn btn--small">Contact</a>
+    </nav>
+
+    <button class="menuBtn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobileMenu" id="mobileMenu" aria-hidden="true">
+    <a href="#work" class="mobileLink">Work</a>
+    <a href="#about" class="mobileLink">About</a>
+    <a href="#services" class="mobileLink">Services</a>
+    <a href="#contact" class="mobileLink btn">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="chip">AI Photoshoots • Creative Direction • Retouch</div>
+        <h1>
+          Hi, I’m <span class="accent">Ali</span>.<br />
+          I create <span class="accent">AI photoshoots</span> that look real.
+        </h1>
+        <p class="lead">
+          From cinematic portraits to streetwear editorials — I design concepts, generate scenes,
+          and polish them with a high-end photoshoot feel.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn" href="#work">View My Work</a>
+          <a class="btn btn--ghost" href="#contact">Book a Shoot</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">Fast</div>
+            <div class="stat-label">24–72h delivery</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Clean</div>
+            <div class="stat-label">Photoreal results</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Custom</div>
+            <div class="stat-label">Concept + styling</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-top">
+          <div class="dot dot--red"></div>
+          <div class="dot dot--yellow"></div>
+          <div class="dot dot--green"></div>
+          <span class="muted">Featured</span>
+        </div>
+        <img
+          src="pics/green duo.jpg"
+          alt="Cinematic portrait in front of a burning house"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section class="section" id="work">
+      <div class="section-head">
+        <h2>Work</h2>
+        <p class="muted">
+          A selection of recent AI photoshoots — cinematic, streetwear, and editorial.
+        </p>
+      </div>
+
+      <div class="filters">
+        <button class="pill is-active" data-filter="all">All</button>
+        <button class="pill" data-filter="cinematic">Cinematic</button>
+        <button class="pill" data-filter="street">Street</button>
+        <button class="pill" data-filter="editorial">Editorial</button>
+        <button class="pill" data-filter="sports">Sports</button>
+      </div>
+
+      <div class="grid" id="workGrid">
+        <!-- Cards injected by JS -->
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="twoCol">
+        <div>
+          <h2>About</h2>
+          <p class="muted">
+            I’m Ali — I create AI photoshoots that feel like real campaigns. I focus on
+            authentic lighting, styling, and detail, so your images look premium and believable.
+          </p>
+
+          <div class="aboutTags">
+            <span class="tag">Photorealism</span>
+            <span class="tag">Concept & Moodboards</span>
+            <span class="tag">Streetwear / Editorial</span>
+            <span class="tag">Retouch & Color Grade</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>What you get</h3>
+          <ul class="list">
+            <li>Creative direction + concept options</li>
+            <li>Multiple variations (poses, outfits, backgrounds)</li>
+            <li>High-res exports + clean color grading</li>
+            <li>Social-ready crops (optional)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="section-head">
+        <h2>Services</h2>
+        <p class="muted">Pick a vibe — I’ll handle the concept to final polish.</p>
+      </div>
+
+      <div class="services">
+        <article class="service">
+          <h3>Starter Pack</h3>
+          <p class="muted">Studio or outdoor looks with realistic light + texture.</p>
+          <ul class="mini">
+            <li>3–7 images</li>
+            <li>Multiple outfits</li>
+            <li>Clean retouch</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <h3>Brand pack</h3>
+          <p class="muted">A consistent series for brands, drops, or collections.</p>
+          <ul class="mini">
+            <li>8–15 images</li>
+            <li>Art direction</li>
+            <li>Color consistency</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <h3>Campaign Pack</h3>
+          <p class="muted">Cinematic scenes, dramatic lighting, story-driven shots.</p>
+          <ul class="mini">
+            <li>16+ images</li>
+            <li>Environment design</li>
+            <li>Poster style</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="twoCol">
+        <div>
+          <h2>Contact</h2>
+          <p class="muted">
+            Tell me your idea (style, outfits, location vibe). I’ll reply with a plan + timeline.
+          </p>
+
+          <div class="contactCards">
+            <a class="contactCard" href="mailto:alieldienmahmoud9@gmail.com?subject=AI%20Photoshoot%20Booking">
+              <div class="contactTitle">Email</div>
+              <div class="muted">alieldienmahmoud9@gmail.com</div>
+            </a>
+            <a class="contactCard" href="https://www.instagram.com/alimragabb/" target="_blank" rel="noreferrer">
+              <div class="contactTitle">Instagram</div>
+              <div class="muted">@alimragabb</div>
+            </a>
+          </div>
+        </div>
+
+        <form class="card form" id="contactForm">
+          <h3>Quick message</h3>
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@email.com" required />
+          </label>
+          <label>
+            What do you want to create?
+            <textarea name="message" rows="5" placeholder="Streetwear shoot, cinematic scene, lookbook..." required></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+          <p class="muted tiny">
+            This uses your email app (mailto). Replace the email/IG links with yours.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="muted">© <span id="year"></span> Ali — AI Photoshoots</div>
+      <a class="muted" href="#top">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">‹</button>
+    <img class="lightbox-img" id="lightboxImg" alt="" />
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">›</button>
+
+    <div class="lightbox-meta">
+      <div id="lightboxTitle" class="lightbox-title"></div>
+      <div id="lightboxTags" class="lightbox-tags"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
