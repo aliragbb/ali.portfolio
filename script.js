@@ -1,7 +1,7 @@
 const works = [
   {
     title: "Fire House — Cinematic",
-    src: "pics/fire-house.jpg",
+    src: "fire-house.jpg",
     tags: ["cinematic", "editorial"]
   },
   {
@@ -203,4 +203,5 @@ function escapeHtml(str){
     .replaceAll('"',"&quot;")
     .replaceAll("'","&#039;");
 }
+
 
